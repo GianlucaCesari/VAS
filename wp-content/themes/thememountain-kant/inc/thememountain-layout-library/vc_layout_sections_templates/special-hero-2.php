@@ -1,0 +1,13 @@
+<?php
+$thememountain_data = array();
+$thememountain_data['name'] = esc_html__( "Special Hero 2", "thememountain-kant" );
+$thememountain_data['weight'] = 0;
+$thememountain_data['custom_class'] = 'vc_layout_sections_templates tm-tmp_special-hero-2 tm-tmp-category_special-hero-2';
+$thememountain_data['content'] = <<<CONTENT
+[vc_row columns_on_tablet="keep" use_background="yes" background_color="#232323"][vc_column h_text_align="left" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" width="1/1"][tm_slider_holder slider_type="full_width" height="window_height" minimum_height="550" slider_id="slide-1524292471-24" auto_advance="" show_nav_arrows="true" parallax=""][tm_slider_item image_source="image_url" image_url="https://wp.thememountain.com/thememountain-kant/wp-content/uploads/sites/7/2017/10/slide-project-1-fs@2x.jpg" caption_horizontal_alignment="left" background_color="#232323" overlay_background_color="rgba(0,0,0,0.25)" pagination_color_palette="nav_color_1" title="Slide" slide_id="slide-1524292418-1-54"][tm_slider_caption margin_bottom="5" margin_bottom_mobile="5" column_width="10" textarea_html_bkg_color="#232323" caption_animation="slideInUpShort"]
+<h1 class="title-large"><span style="color: #ffffff">Kant WordPress Theme</span></h1>
+[/tm_slider_caption][tm_slider_caption column_width="6" textarea_html_bkg_color="#232323" caption_animation="slideInUpShort" caption_animation_delay="400"]
+<p class="lead"><span style="color: #ffffff">Sign up now and receive all the latest in our weekly newsletter. You can unsubscribe at any time.</span></p>
+[/tm_slider_caption][tm_slider_caption column_width="6" textarea_html_bkg_color="#ffffff" caption_animation="turnInRight" caption_animation_delay="800"][tm_content_mailchimp_form hide_name_field="true" hide_lastname_field="true" form_alignment="left" form_format="stacked" form_size="medium" form_corner_style="" email_field_placeholder="Email address*" fname_field_placeholder="First name*" lname_field_placeholder="Last name*" button_label="Subscribe" button_background_color="" button_background_color_hover="" button_border_color="" button_border_color_hover="" button_label_color="" button_label_color_hover="" form_background_color="" form_border_color="" form_placeholder_color="" form_focus_background_color="" form_focus_border_color="" form_focus_text_color="" form_error_background_color="" form_error_border_color="" form_error_text_color="" response_message_text_color="#fff" hide_initial_response_message="false" button_width="" initial_response_message="We don't spam." el_id="" el_class=""][/tm_slider_caption][/tm_slider_item][/tm_slider_holder][/vc_column][/vc_row]
+CONTENT;
+vc_add_default_templates( $thememountain_data );

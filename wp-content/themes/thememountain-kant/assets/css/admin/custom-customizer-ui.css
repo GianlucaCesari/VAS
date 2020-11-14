@@ -1,0 +1,6 @@
+/**
+ * hide Kirki section reset (it does not work with activacallback)
+ */
+.kirki-reset-section {
+	display: none !important;
+}

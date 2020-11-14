@@ -1,0 +1,198 @@
+
+/* Titles */
+h3 .tm-logo{
+	padding: 5px 0 5px 48px;
+	margin-bottom: 0.5em;
+	background-image: url(../images/tm-logo.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: left 45%;
+	display: inline-block;
+}
+
+/* Filter Menu */
+.vc_edit-form-tab:not([data-tab="my_templates"]) button.tmp-filterMenu {
+	background: none;
+	border: none;
+	color: #5e5e5e;
+	outline: none;
+	font-size: 12px;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) #typeSelectionMenuWrap{
+	padding: 0;
+	margin-bottom: 20px;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) #typeSelectionMenuWrap button {
+	padding: 5px 10px;
+	margin-right: 0.5rem;
+	background-color: #f4f4f4;
+	border-color: transparent;
+	border-radius: 3px;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #666;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) #typeSelectionMenuWrap button.active{
+	background-color: #00aef0;
+	border-color: transparent;
+	color: #fff;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .filterMenuWrap {
+	padding: 10px 15px;
+	background-color: #f4f4f4;
+	border-radius: 3px;
+ }
+ .vc_edit-form-tab:not([data-tab="my_templates"]) .filterMenuWrap button.tmp-filterMenu.active {
+    color: #00aef0;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list.vc_ui-list-bar{
+ 	margin-top: 0;
+ }
+@media only screen and (max-width: 960px){
+	.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template {
+		width: 33.33333% !important;
+	}
+}
+@media only screen and (max-width: 768px){
+	.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template {
+		width: 50% !important;
+	}
+}
+
+/* Wrapper  */
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list.vc_ui-list-bar{
+	height: 100%;
+	margin-top: 20px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 2% 0 0 0;
+	background: #f0f0f0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Templates */
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template {
+	width: 25%;
+	height: auto;
+	padding: 0;
+	margin: 0 0 25px 0 !important;
+	float: left;
+	border-radius: 3px;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template-content{
+	padding: 0 15px;
+	overflow: visible;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template .vc_ui-template-content img{
+	width: 100%;
+	max-width: 100%;
+	vertical-align: bottom;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template-content > div{
+	background-color: #fff;
+	border-radius: 3px;
+	transition-property: box-shadow;
+	transition-duration: 300ms;
+	box-shadow: 0 0px 3px rgba(0,0,0,.15);
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template:hover .vc_ui-template-content > div{
+	box-shadow: 0 2px 30px rgba(0,0,0,.3);
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-list-bar-item {
+	border: none;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-list-bar-item-trigger{
+	min-width: 100%;
+	padding: 15px 30px 15px 10px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-top: 1px solid #eee;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-list-bar-item-trigger:hover {
+	color: #23282d;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-list-bar-item-actions{
+	padding: 0 10px 0 0;
+	opacity: 1;
+	visibility: visible;
+	position: absolute;
+	right: 0;
+	z-index: 1;
+	display: none;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-control-button{
+	padding: 0;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-panel-window-inner .vc_ui-panel-content {
+	padding-bottom: 0;
+	position: relative;
+	height: 100%;
+}
+.vc_edit-form-tab:not([data-tab="my_templates"]) button.vc_ui-list-bar-item-trigger:after {
+    content: "\e90e";
+    font-family: vcpb-plugin-icons!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    right: 10px;
+    font-size: 15px;
+    top: 14px;
+}
+
+/* Ticker */
+#tm-news{
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+#tm-news ul.marquee{
+	width: 100%;
+	height: 28px;
+	display:block;
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	line-height:1;
+	position:relative;
+	overflow:hidden;
+	background-color: rgba(255,255,255,0.97);
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.07);
+	color: #888;
+}
+#tm-news ul.marquee a{
+	color: #00aef0;
+}
+#tm-news ul.marquee li{
+	padding: 5px;
+	position:absolute;
+	top:-999em;
+	left: 0;
+	display:block;
+	white-space:nowrap;
+	font: 13px Arial,Helvetica,sans-serif;
+}
+#tm-news ul.marquee li.centered {
+	width: 99.9%;
+	text-align: center;
+}
+
+/**
+ * For controling modal thumbnail.
+ * This was necessary to make sure that correct thumbnails are shown even if tab is changed.
+ */
+.vc_edit-form-tab:not([data-tab="my_templates"]) .vc_ui-template-list .vc_ui-template.vc_templates-template-type-default_templates.hide {
+	display: none !important;
+}

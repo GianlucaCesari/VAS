@@ -1,0 +1,56 @@
+<?php
+$thememountain_data = array();
+$thememountain_data['name'] = esc_html__( "Product One", "thememountain-kant" );
+$thememountain_data['weight'] = 0;
+$thememountain_data['custom_class'] = 'vc_layout_templates tm-tmp_product-one tm-tmp-category_concept-pages';
+$thememountain_data['content'] = <<<CONTENT
+[vc_row columns_on_tablet="keep" use_background="yes" background_color="#232323"][vc_column h_text_align="left" h_text_align_mobile="left" v_align="v-align-middle" width="1/1"][tm_slider_holder slider_type="full_width" height="window_height" minimum_height="550" slider_id="slide-1502195317-59" auto_advance="" show_nav_arrows="true" pagination_color_1="#ffffff" pagination_color_2="#000000" transition_easing="easeInOutCirc" parallax="true" parallax_fade_on_scroll="true"][tm_slider_item image_source="image_url" image_url="https://wpdev.thememountain.com/thememountain-kant/wp-content/uploads/sites/7/2018/05/slide-16-fs@2x.jpg" background_color="#232323" overlay_background_color="rgba(0,0,0,0.25)" pagination_color_palette="nav_color_2" slide_transition="scaleOut" title="Slide 1" slide_id="slide-1502195278-1-61"][tm_slider_icon margin_bottom_mobile="10" icon_id="tm-entypo-icon-play" link_icon="use_lightbox" media_type="vimeo" lightbox_caption="This is a caption " video_vimeo_id="184100655" icon_size="small" icon_style="icon-circled" bkg_color="#ffffff" bkg_color_hover="rgba(255,255,255,0.01)" border_color="#ffffff" border_color_hover="#ffffff" label_color="#33363a" label_color_hover="#ffffff" icon_animation="scaleIn" icon_animation_delay="1100" video_url_parameters="autoplay=1"][tm_slider_caption margin_bottom="40" margin_bottom_mobile="10" textarea_html_bkg_color="#666666" display_inline="true" caption_animation="slideInUpShort" caption_animation_duration="800" caption_animation_delay="200"]
+<p class="title-large"><span style="color: #ffffff;">Create Amazing Product Pages</span></p>
+[/tm_slider_caption][tm_slider_caption margin_bottom="50" margin_bottom_mobile="10" column_width="6" column_offset="3" textarea_html_bkg_color="#666666" caption_animation="slideInUpShort" caption_animation_duration="800" caption_animation_delay="800"]
+<p class="lead"><span style="color: #ffffff;">Build stunning looking product pages in mintues using carefully crafted content-blocks</span></p>
+[/tm_slider_caption][tm_slider_icon margin_bottom="0" margin_bottom_mobile="0" icon_id="tm-entypo-icon-down" link_icon="scroll_to_section" link_url="#brief" label_color="#ffffff" label_color_hover="rgba(255,255,255,0.5)" icon_animation="slideInUpShort" icon_animation_delay="1100"][/tm_slider_item][/tm_slider_holder][/vc_column][/vc_row][vc_row columns_on_tablet="keep" el_id="brief"][vc_column h_text_align="center" h_text_align_mobile="center-on-mobile" v_align="v-align-middle" column_offset="" column_push="" column_pull="" width="1/3"][tm_feature_columns icon_id="tm-entypo-icon-water" textarea_html_bkg_color="#ffffff" icon_alignment="center" label_color="#33363a" label_color_hover="#33363a" slide_id="01314186-0f70-10"]
+<h4>Waterproof</h4>
+<h5><span style="color: #999999;">TO 300M</span></h5>
+Use feature columns to highlight key information of one or multiple sections. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[/tm_feature_columns][/vc_column][vc_column h_text_align="left" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" width="1/3"][tm_feature_columns icon_id="tm-entypo-icon-fingerprint" textarea_html_bkg_color="#ffffff" icon_alignment="center" label_color="#33363a" label_color_hover="#33363a" slide_id="01314186-0f70-10"]
+<h4>Touch ID</h4>
+<h5><span style="color: #999999;">2 LEVEL SECURITY</span></h5>
+Use feature columns to highlight key information of one or multiple sections. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[/tm_feature_columns][/vc_column][vc_column h_text_align="left" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" width="1/3"][tm_feature_columns icon_id="tm-entypo-icon-back-in-time" textarea_html_bkg_color="#ffffff" icon_alignment="center" label_color="#33363a" label_color_hover="#33363a" slide_id="01314186-0f70-10"]
+<h4>Daily Backups</h4>
+<h5><span style="color: #999999;">ON A DAILY BASIS</span></h5>
+Use feature columns to highlight key information of one or multiple sections. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[/tm_feature_columns][/vc_column][/vc_row][vc_row equalize="true" columns_on_tablet="keep" use_background="yes" background_color="#f8f8f8"][vc_column h_text_align="right" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" column_offset="" column_push="" column_pull="" width="1/2"][tm_textblock textarea_html_bkg_color="#ffffff"]
+<h2 class="mb-20">Sport Version</h2>
+<p class="lead">For the sport fanatic within you.</p>
+[tm_content_divider show_on="" border_style="solid" border_thickness="thin" border_color="#eee" el_id="" el_class=""]
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.
+<p class="text-xlarge"><strong>$189.00</strong></p>
+[/tm_textblock][tm_button button_label="Buy This Product" link_url="#" button_size="medium"][/vc_column][vc_column h_text_align="left" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" column_offset="" column_push="" column_pull="" column_animation="parallax_on_scroll" width="1/2"][tm_image image_source="image_url" image_url="https://wpdev.thememountain.com/thememountain-kant/wp-content/uploads/sites/7/2018/05/feature-product-1.jpg" link_image="none" textarea_html_bkg_color="#ffffff" caption_type=""][/tm_image][/vc_column][/vc_row][vc_row equalize="true" columns_on_tablet="keep"][vc_column h_text_align="left" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" column_offset="" column_push="6" column_pull="" width="1/2"][tm_textblock textarea_html_bkg_color="#ffffff"]
+<h2 class="mb-20">Sport Version</h2>
+<p class="lead">For the sport fanatic within you.</p>
+[tm_content_divider show_on="" border_style="solid" border_thickness="thin" border_color="#eee" el_id="" el_class=""]
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.
+<p class="text-xlarge"><strong>$289.00</strong></p>
+[/tm_textblock][tm_button button_label="Buy This Product" link_url="#" button_size="medium"][/vc_column][vc_column h_text_align="left" h_text_align_mobile="left-on-mobile" v_align="v-align-middle" column_offset="" column_push="" column_pull="6" column_animation="parallax_on_scroll" width="1/2"][tm_image image_source="image_url" image_url="https://wpdev.thememountain.com/thememountain-kant/wp-content/uploads/sites/7/2018/05/feature-product-2.jpg" link_image="none" textarea_html_bkg_color="#ffffff" caption_type=""][/tm_image][/vc_column][/vc_row][vc_row columns_on_tablet="keep" use_background="yes" background_color="#232323"][vc_column h_text_align="left" h_text_align_mobile="left" v_align="v-align-middle" width="1/1"][tm_hero_5 height="auto" media_content_type="image" image_source="image_url" image_url="https://wpdev.thememountain.com/thememountain-kant/wp-content/uploads/sites/7/2018/05/hero-half-7@2x.jpg" textarea_html_bkg_color="#ffffff" media_alignment="right" text_color="#ffffff" overlay_background_color="rgba(0,0,0,0.01)"]
+<h3 style="text-align: left;">Strategy</h3>
+<p class="lead" style="text-align: left;">Kant is an elegant multi-purpose template that is big, bold and beautiful.</p>
+<p class="mb-50" style="text-align: left;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+<h4 style="text-align: left;">Marketing</h4>
+<ul style="text-align: left;">
+ 	<li>Block-based design</li>
+ 	<li>20+ Components</li>
+ 	<li>70+ Purpose-built blocks</li>
+ 	<li>10+ Plugins</li>
+ 	<li>and much more...</li>
+</ul>
+[/tm_hero_5][/vc_column][/vc_row][vc_row force_fullwidth="true" columns_on_tablet="keep"][vc_column h_text_align="left" h_text_align_mobile="left" v_align="v-align-middle" width="1/1"][vc_row_inner columns_on_tablet="keep" padding_top="0" padding_bottom="40"][vc_column_inner h_text_align="center" h_text_align_mobile="center-on-mobile" v_align="v-align-middle" column_offset="2" column_push="" column_pull="" width="8/12"][tm_textblock textarea_html_bkg_color="#ffffff"]
+<h3 class="mb-40">You're In Great Company</h3>
+<p class="lead">We've been lucky enough to work with some of the best companies in the world, and we'd love for you to join the list.</p>
+[/tm_textblock][/vc_column_inner][/vc_row_inner][vc_row_inner columns_on_tablet="keep" clear_all_padding="yes"][vc_column_inner h_text_align="left" h_text_align_mobile="left" v_align="v-align-middle" width="1/1"][tm_logos items_per_row="5" logo_type="4" logos_id="6442,6443,6444,6445,6157,6156,6155,6154,6152,6151"][/tm_logos][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row columns_on_tablet="keep" use_background="yes" background_color="#ffffff" add_overlay="true" overlay_background_color="rgba(0,0,0,0.5)" image_source="image_url" image_url="https://wpdev.thememountain.com/thememountain-kant/wp-content/uploads/sites/7/2018/05/signup-3@2x-3.jpg"][vc_column h_text_align="center" h_text_align_mobile="center-on-mobile" v_align="v-align-middle" column_offset="3" column_push="" column_pull="" width="6/12"][tm_textblock textarea_html_bkg_color="#ffffff"]
+<h3 class="&quot;mb-10"><span style="color: #ffffff;">Always Get The Latest</span></h3>
+<span style="color: #ffffff;">Subscribe to Onboard and get the latest notifications and updates. We take spamming seriously.</span>
+
+[tm_content_mailchimp_form hide_name_field="false" hide_lastname_field="true" form_alignment="left" form_format="stacked" form_size="medium" form_corner_style="" email_field_placeholder="Email address*" fname_field_placeholder="First name*" lname_field_placeholder="Last name*" button_label="Subscribe" button_background_color="#33363a" button_background_color_hover="#3fb58b" button_border_color="#33363a" button_border_color_hover="#3fb58b" button_label_color="#fff" button_label_color_hover="#fff" form_background_color="#fff" form_border_color="#fff" form_placeholder_color="#33363a" form_focus_background_color="#fff" form_focus_border_color="#3fb58b" form_focus_text_color="#3fb58b" form_error_background_color="#fff" form_error_border_color="#3fb58b" form_error_text_color="#3fb58b" checkbox_radio_background_color="" checkbox_radio_border_color="" checkbox_checked_background_color="" checkbox_checked_color="" checkbox_error_border_color="#3fb58b" response_message_text_color="#fff" hide_initial_response_message="false" button_width="false" initial_response_message="We don't spam." el_id="" el_class=""][/tm_textblock][/vc_column][/vc_row]
+CONTENT;
+vc_add_default_templates( $thememountain_data );
